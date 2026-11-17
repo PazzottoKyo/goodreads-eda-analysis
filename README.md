@@ -26,14 +26,14 @@ goodreads-eda-analysis/
 │
 ├── data/
 │   ├── raw_data/
-│   │   └── books_colunas_relevantes.csv   # Dataset original (10.000 registros)
+│   │   └── books_colunas_relevantes.csv        # Dataset original (10.000 registros)
 │   └── processed_data/
-│       └── books_clean.csv                # Dataset tratado e enriquecido (9.979 registros)
+│       └── books_clean.csv                     # Dataset tratado e enriquecido (9.979 registros)
 │
-├── notebooks/
-│   └── analise_exploratoria_goodreads.ipynb # Notebook principal com código, testes e visualizações
+├── py_notebooks/
+│   └── 01_exploratory_data_analysis.ipynb      # Notebook principal com código, testes e visualizações
 │
-├── charts/                                # Gráficos exportados em alta resolução (300 DPI)
+├── charts/                                     # Gráficos exportados em alta resolução (300 DPI)
 │   ├── 01_histograma_avaliacoes.png
 │   ├── 02_boxplot_periodo.png
 │   ├── 03_avaliacao_idiomas.png
@@ -41,7 +41,8 @@ goodreads-eda-analysis/
 │   ├── 05_mapa_calor_correlacao.png
 │   └── 06_top_livros_autores.png
 │
-└── README.md                              # Documentação do projeto
+├── LICENSE                                     # Licença do projeto
+└── README.md                                   # Documentação do projeto
 ```
 
 ---
@@ -84,7 +85,7 @@ Durante a preparação dos dados no notebook, foram aplicadas as seguintes trans
 
 1. **Clone este repositório:**
    ```bash
-   git clone [https://github.com/seu-usuario/goodreads-eda-analysis.git](https://github.com/seu-usuario/goodreads-eda-analysis.git)
+   git clone [https://github.com/PazzottoKyo/goodreads-eda-analysis.git](https://github.com/PazzottoKyo/goodreads-eda-analysis.git)
    cd goodreads-eda-analysis
    ```
 
@@ -97,7 +98,7 @@ Durante a preparação dos dados no notebook, foram aplicadas as seguintes trans
 
 3. **Execute o Jupyter Notebook:**
    ```bash
-   jupyter notebook notebooks/analise_exploratoria_goodreads.ipynb
+   jupyter notebook py_notebooks/01_exploratory_data_analysis.ipynb
    ```
 
 ---
